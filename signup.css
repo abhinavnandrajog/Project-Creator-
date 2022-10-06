@@ -1,0 +1,137 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.fullimg{
+    background: url(images/vlog10.png);
+    background-position: center;
+    background-size: cover;
+    height:100vh;
+}
+.navbar{
+    padding: 20px 20px;
+}
+.logo{
+    color: white;
+    float: left;
+    font-size: 40px;
+    font-family: 'Comfortaa', cursive;
+}
+.logo .way{
+    color:#f9a700;
+    font-weight: bolder;
+}
+.nav-content{
+    float: right;
+    padding-right: 20px;
+}
+.nav-content a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding-right: 30px;
+    transition: 0.2s;
+}
+.nav-content a:hover{
+    color:#f9a700;
+}
+.login-form{
+    clear: both;
+    padding-top: 70px;
+    padding-left: 1000px;
+}
+.input-area{
+    padding: 20px 30px;
+    border:none;
+    border-bottom: 2px solid white;
+    outline: none;
+    background-color:transparent;
+    margin-left:14px;
+    color:white;
+    text-align: center;
+    padding-right: 100px;
+    
+}
+.input-area::placeholder{
+    /* text-align: center; */
+    color: white;
+    font-size: 20px;
+    padding-left: 30px;
+    width:100%;
+}
+.login-form img{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    padding-top: 5px;   
+}
+.user,.pass,.email,.number{
+    padding-bottom: 35px;
+}
+.pass img{
+    padding-left: 12px;
+    width: 30px;
+    height: 30px;
+}
+.email img{
+    padding-left: 12px;
+    width: 30px;
+    height: 30px;
+}
+.number img{
+    padding-left: 12px;
+    width: 30px;
+    height: 30px;
+}
+.btnn{
+    padding-left: 10px;
+}
+.btnn button{
+    padding: 20px 30px;
+    width: 300px;
+    font-size: 30px;
+    background-color:#f9a700;
+    color:white;
+    transition: 0.3s;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 40px;
+
+}
+.btnn button:hover{
+    background-color: transparent;
+    color: white;
+    border:3px solid #f9a700;
+}
+.create-account{
+    padding-left:12px;
+    padding-top: 40px;
+    color: white;
+    letter-spacing: 1.3px;
+}
+.create-account a{
+    text-decoration: none;
+    color:white;
+    font-size: 25px;
+    transition: 0.2s;
+}
+.create-account a:hover{
+    color:#f9a700;
+}
+.sign-in{
+    padding: 10px 20px;
+    font-size: 20px;
+    border: 2px solid white;
+    background-color: black;
+    color:white;
+    transition: 0.3s;
+    font-weight: bold;
+    cursor: pointer;
+}
+.sign-in:hover{
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+}

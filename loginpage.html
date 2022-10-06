@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@1,700&display=swap" rel="stylesheet">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+
+</head>
+
+<body>
+    <section class="fullimg">
+        <div class="navbar">
+            <div class="logo">
+                Creators'<span class="way">ਅੱਡਾ</span>
+            </div>
+            <div class="nav-content">
+                <a href="index.html">Home</a>
+                <a href="sign.html">Register</a>
+                <a href="aboutUs.html">About Us</a>
+                <a href="aboutUs.html#contact-us">Contact Us</a>
+            </div>
+        </div>
+
+
+        <div class="login-form">
+            <form class="myform">
+                <div class="user">
+                    <img src="Images/username.jfif">
+                    <input type="text" id="i1" name="username" placeholder="Username" class="input-area" >
+                </div>
+                <div class="pass">
+                    <img src="Images/password.jpg">
+                    <input type="password" id="i2" name="passord" placeholder="Password" class="input-area">
+                </div>
+                <div class="btnn">
+                    <a href="#"><button onclick=validateForm()>Login</button></a>
+                </div>
+                
+
+            </form>
+            <div class="forgot-pass">
+                <a href="#">Forgot Password?</a>
+            </div>
+            <div class="create-account">
+                Don't have an account? <a href="sign.html"><button class="sign-up">Sign Up</button></a>
+            </div>
+        </div>
+
+    </section>
+    <script>
+        function validateForm()
+        {
+
+
+            var x1 = document.getElementById("i1").value;
+            var y2 = document.getElementById("i2").value;
+            
+            if(x1 == "Abhinav" && y2 == "123456" ){
+                window.alert("Sucessfully Login!");
+                window.open("Mobile.html");
+            }
+            else{
+                window.alert("Oops! Try again.");
+            }
+        }
+    </script>
+</body>
+
+</html>
